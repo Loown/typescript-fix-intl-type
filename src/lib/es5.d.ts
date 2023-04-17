@@ -4394,6 +4394,8 @@ declare namespace Intl {
     };
 
     interface NumberFormatOptions {
+        compactDisplay?: 'short' | 'long';
+        notation?: 'standard' | 'scientific' | 'engineering' | 'compact';
         localeMatcher?: string | undefined;
         style?: string | undefined;
         currency?: string | undefined;
